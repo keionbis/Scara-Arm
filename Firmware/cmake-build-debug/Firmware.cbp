@@ -402,6 +402,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/keionbis/ScaraArm/Firmware/src/AS5055.cpp">
+			<Option target="Firmware"/>
+		</Unit>
+		<Unit filename="/home/keionbis/ScaraArm/Firmware/src/AS5055.h">
+			<Option target="Firmware"/>
+		</Unit>
 		<Unit filename="/home/keionbis/ScaraArm/Firmware/src/Comms.cpp">
 			<Option target="Firmware"/>
 		</Unit>
@@ -412,9 +418,6 @@
 			<Option target="Firmware"/>
 		</Unit>
 		<Unit filename="/home/keionbis/ScaraArm/Firmware/src/DigitalServo.h">
-			<Option target="Firmware"/>
-		</Unit>
-		<Unit filename="/home/keionbis/ScaraArm/Firmware/src/Encoder.cpp">
 			<Option target="Firmware"/>
 		</Unit>
 		<Unit filename="/home/keionbis/ScaraArm/Firmware/src/PIDServer.cpp">

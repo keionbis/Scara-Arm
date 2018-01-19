@@ -51,4 +51,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(${PROJECT_NAME} ${SRC_LIST} src/PIDServer.cpp src/PIDServer.h src/Comms.cpp src/Comms.h src/Encoder.cpp src/RunEvery.cpp src/RunEvery.h src/DigitalServo.cpp src/DigitalServo.h)
+add_executable(${PROJECT_NAME} ${SRC_LIST} src/PIDServer.cpp src/PIDServer.h src/Comms.cpp src/Comms.h src/RunEvery.cpp src/RunEvery.h src/DigitalServo.cpp src/DigitalServo.h src/AS5055.cpp src/AS5055.h)

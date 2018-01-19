@@ -227,6 +227,33 @@ Firmware/fast:
 	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/build
 .PHONY : Firmware/fast
 
+src/AS5055.o: src/AS5055.cpp.o
+
+.PHONY : src/AS5055.o
+
+# target to build an object file
+src/AS5055.cpp.o:
+	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/AS5055.cpp.o
+.PHONY : src/AS5055.cpp.o
+
+src/AS5055.i: src/AS5055.cpp.i
+
+.PHONY : src/AS5055.i
+
+# target to preprocess a source file
+src/AS5055.cpp.i:
+	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/AS5055.cpp.i
+.PHONY : src/AS5055.cpp.i
+
+src/AS5055.s: src/AS5055.cpp.s
+
+.PHONY : src/AS5055.s
+
+# target to generate assembly for a file
+src/AS5055.cpp.s:
+	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/AS5055.cpp.s
+.PHONY : src/AS5055.cpp.s
+
 src/Comms.o: src/Comms.cpp.o
 
 .PHONY : src/Comms.o
@@ -280,33 +307,6 @@ src/DigitalServo.s: src/DigitalServo.cpp.s
 src/DigitalServo.cpp.s:
 	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/DigitalServo.cpp.s
 .PHONY : src/DigitalServo.cpp.s
-
-src/Encoder.o: src/Encoder.cpp.o
-
-.PHONY : src/Encoder.o
-
-# target to build an object file
-src/Encoder.cpp.o:
-	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/Encoder.cpp.o
-.PHONY : src/Encoder.cpp.o
-
-src/Encoder.i: src/Encoder.cpp.i
-
-.PHONY : src/Encoder.i
-
-# target to preprocess a source file
-src/Encoder.cpp.i:
-	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/Encoder.cpp.i
-.PHONY : src/Encoder.cpp.i
-
-src/Encoder.s: src/Encoder.cpp.s
-
-.PHONY : src/Encoder.s
-
-# target to generate assembly for a file
-src/Encoder.cpp.s:
-	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/Encoder.cpp.s
-.PHONY : src/Encoder.cpp.s
 
 src/PIDServer.o: src/PIDServer.cpp.o
 
@@ -406,15 +406,15 @@ help:
 	@echo "... PLATFORMIO_REBUILD_PROJECT_INDEX"
 	@echo "... PLATFORMIO_UPDATE_ALL"
 	@echo "... Firmware"
+	@echo "... src/AS5055.o"
+	@echo "... src/AS5055.i"
+	@echo "... src/AS5055.s"
 	@echo "... src/Comms.o"
 	@echo "... src/Comms.i"
 	@echo "... src/Comms.s"
 	@echo "... src/DigitalServo.o"
 	@echo "... src/DigitalServo.i"
 	@echo "... src/DigitalServo.s"
-	@echo "... src/Encoder.o"
-	@echo "... src/Encoder.i"
-	@echo "... src/Encoder.s"
 	@echo "... src/PIDServer.o"
 	@echo "... src/PIDServer.i"
 	@echo "... src/PIDServer.s"

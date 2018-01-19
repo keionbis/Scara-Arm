@@ -57,9 +57,33 @@ include CMakeFiles/Firmware.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Firmware.dir/flags.make
 
+CMakeFiles/Firmware.dir/src/AS5055.cpp.o: CMakeFiles/Firmware.dir/flags.make
+CMakeFiles/Firmware.dir/src/AS5055.cpp.o: ../src/AS5055.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Firmware.dir/src/AS5055.cpp.o"
+	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Firmware.dir/src/AS5055.cpp.o -c /home/keionbis/ScaraArm/Firmware/src/AS5055.cpp
+
+CMakeFiles/Firmware.dir/src/AS5055.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Firmware.dir/src/AS5055.cpp.i"
+	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/keionbis/ScaraArm/Firmware/src/AS5055.cpp > CMakeFiles/Firmware.dir/src/AS5055.cpp.i
+
+CMakeFiles/Firmware.dir/src/AS5055.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Firmware.dir/src/AS5055.cpp.s"
+	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/keionbis/ScaraArm/Firmware/src/AS5055.cpp -o CMakeFiles/Firmware.dir/src/AS5055.cpp.s
+
+CMakeFiles/Firmware.dir/src/AS5055.cpp.o.requires:
+
+.PHONY : CMakeFiles/Firmware.dir/src/AS5055.cpp.o.requires
+
+CMakeFiles/Firmware.dir/src/AS5055.cpp.o.provides: CMakeFiles/Firmware.dir/src/AS5055.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/AS5055.cpp.o.provides.build
+.PHONY : CMakeFiles/Firmware.dir/src/AS5055.cpp.o.provides
+
+CMakeFiles/Firmware.dir/src/AS5055.cpp.o.provides.build: CMakeFiles/Firmware.dir/src/AS5055.cpp.o
+
+
 CMakeFiles/Firmware.dir/src/Comms.cpp.o: CMakeFiles/Firmware.dir/flags.make
 CMakeFiles/Firmware.dir/src/Comms.cpp.o: ../src/Comms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Firmware.dir/src/Comms.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Firmware.dir/src/Comms.cpp.o"
 	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Firmware.dir/src/Comms.cpp.o -c /home/keionbis/ScaraArm/Firmware/src/Comms.cpp
 
 CMakeFiles/Firmware.dir/src/Comms.cpp.i: cmake_force
@@ -83,7 +107,7 @@ CMakeFiles/Firmware.dir/src/Comms.cpp.o.provides.build: CMakeFiles/Firmware.dir/
 
 CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o: CMakeFiles/Firmware.dir/flags.make
 CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o: ../src/DigitalServo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o"
 	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o -c /home/keionbis/ScaraArm/Firmware/src/DigitalServo.cpp
 
 CMakeFiles/Firmware.dir/src/DigitalServo.cpp.i: cmake_force
@@ -103,30 +127,6 @@ CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o.provides: CMakeFiles/Firmware.dir
 .PHONY : CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o.provides
 
 CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o.provides.build: CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o
-
-
-CMakeFiles/Firmware.dir/src/Encoder.cpp.o: CMakeFiles/Firmware.dir/flags.make
-CMakeFiles/Firmware.dir/src/Encoder.cpp.o: ../src/Encoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Firmware.dir/src/Encoder.cpp.o"
-	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Firmware.dir/src/Encoder.cpp.o -c /home/keionbis/ScaraArm/Firmware/src/Encoder.cpp
-
-CMakeFiles/Firmware.dir/src/Encoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Firmware.dir/src/Encoder.cpp.i"
-	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/keionbis/ScaraArm/Firmware/src/Encoder.cpp > CMakeFiles/Firmware.dir/src/Encoder.cpp.i
-
-CMakeFiles/Firmware.dir/src/Encoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Firmware.dir/src/Encoder.cpp.s"
-	/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/keionbis/ScaraArm/Firmware/src/Encoder.cpp -o CMakeFiles/Firmware.dir/src/Encoder.cpp.s
-
-CMakeFiles/Firmware.dir/src/Encoder.cpp.o.requires:
-
-.PHONY : CMakeFiles/Firmware.dir/src/Encoder.cpp.o.requires
-
-CMakeFiles/Firmware.dir/src/Encoder.cpp.o.provides: CMakeFiles/Firmware.dir/src/Encoder.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Firmware.dir/build.make CMakeFiles/Firmware.dir/src/Encoder.cpp.o.provides.build
-.PHONY : CMakeFiles/Firmware.dir/src/Encoder.cpp.o.provides
-
-CMakeFiles/Firmware.dir/src/Encoder.cpp.o.provides.build: CMakeFiles/Firmware.dir/src/Encoder.cpp.o
 
 
 CMakeFiles/Firmware.dir/src/PIDServer.cpp.o: CMakeFiles/Firmware.dir/flags.make
@@ -203,9 +203,9 @@ CMakeFiles/Firmware.dir/src/main.c.o.provides.build: CMakeFiles/Firmware.dir/src
 
 # Object files for target Firmware
 Firmware_OBJECTS = \
+"CMakeFiles/Firmware.dir/src/AS5055.cpp.o" \
 "CMakeFiles/Firmware.dir/src/Comms.cpp.o" \
 "CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o" \
-"CMakeFiles/Firmware.dir/src/Encoder.cpp.o" \
 "CMakeFiles/Firmware.dir/src/PIDServer.cpp.o" \
 "CMakeFiles/Firmware.dir/src/RunEvery.cpp.o" \
 "CMakeFiles/Firmware.dir/src/main.c.o"
@@ -213,9 +213,9 @@ Firmware_OBJECTS = \
 # External object files for target Firmware
 Firmware_EXTERNAL_OBJECTS =
 
+Firmware: CMakeFiles/Firmware.dir/src/AS5055.cpp.o
 Firmware: CMakeFiles/Firmware.dir/src/Comms.cpp.o
 Firmware: CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o
-Firmware: CMakeFiles/Firmware.dir/src/Encoder.cpp.o
 Firmware: CMakeFiles/Firmware.dir/src/PIDServer.cpp.o
 Firmware: CMakeFiles/Firmware.dir/src/RunEvery.cpp.o
 Firmware: CMakeFiles/Firmware.dir/src/main.c.o
@@ -229,9 +229,9 @@ CMakeFiles/Firmware.dir/build: Firmware
 
 .PHONY : CMakeFiles/Firmware.dir/build
 
+CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/AS5055.cpp.o.requires
 CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/Comms.cpp.o.requires
 CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o.requires
-CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/Encoder.cpp.o.requires
 CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/PIDServer.cpp.o.requires
 CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/RunEvery.cpp.o.requires
 CMakeFiles/Firmware.dir/requires: CMakeFiles/Firmware.dir/src/main.c.o.requires

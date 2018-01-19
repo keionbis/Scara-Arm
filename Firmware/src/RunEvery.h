@@ -7,7 +7,9 @@
 
 
 class RunEvery {
-
+public:
+    RunEvery(void (*funct)(),int CycleTime);
+    int TimerCount;
 };
 
 

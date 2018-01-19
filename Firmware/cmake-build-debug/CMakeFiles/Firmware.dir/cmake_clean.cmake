@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Firmware.dir/src/AS5055.cpp.o"
   "CMakeFiles/Firmware.dir/src/Comms.cpp.o"
   "CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o"
-  "CMakeFiles/Firmware.dir/src/Encoder.cpp.o"
   "CMakeFiles/Firmware.dir/src/PIDServer.cpp.o"
   "CMakeFiles/Firmware.dir/src/RunEvery.cpp.o"
   "CMakeFiles/Firmware.dir/src/main.c.o"

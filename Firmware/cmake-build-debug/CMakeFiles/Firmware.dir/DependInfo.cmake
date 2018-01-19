@@ -136,9 +136,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/keionbis/.platformio/packages/tool-unity"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/keionbis/ScaraArm/Firmware/src/AS5055.cpp" "/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir/src/AS5055.cpp.o"
   "/home/keionbis/ScaraArm/Firmware/src/Comms.cpp" "/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir/src/Comms.cpp.o"
   "/home/keionbis/ScaraArm/Firmware/src/DigitalServo.cpp" "/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o"
-  "/home/keionbis/ScaraArm/Firmware/src/Encoder.cpp" "/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir/src/Encoder.cpp.o"
   "/home/keionbis/ScaraArm/Firmware/src/PIDServer.cpp" "/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir/src/PIDServer.cpp.o"
   "/home/keionbis/ScaraArm/Firmware/src/RunEvery.cpp" "/home/keionbis/ScaraArm/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir/src/RunEvery.cpp.o"
   )
