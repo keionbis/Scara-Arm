@@ -1,1 +1,0 @@
-/home/keionbis/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++   -g   CMakeFiles/Firmware.dir/src/AS5055.cpp.o CMakeFiles/Firmware.dir/src/Comms.cpp.o CMakeFiles/Firmware.dir/src/DigitalServo.cpp.o CMakeFiles/Firmware.dir/src/PIDServer.cpp.o CMakeFiles/Firmware.dir/src/RunEvery.cpp.o CMakeFiles/Firmware.dir/src/main.c.o  -o Firmware -rdynamic 
